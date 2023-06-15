@@ -1,2 +1,6 @@
 library(usethis)
-edit_git_config()
+use_github()
+library(gh)
+library(gitcreds)
+gitcreds_get()$password
+gitcreds_set()
