@@ -32,7 +32,7 @@ format:
           \small\emph{#1} % or \small\textit{#1} 
           \itshape % use this if you want the text to be in italics
           }{%
-          \newline\hrule
+          \hrule
           \vspace{0.6cm}
           }
 

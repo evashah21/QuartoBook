@@ -1,5 +1,15 @@
 # Introduction
 
+```{=latex}
+\begin{secabstract}{In this chapter, you will learn}
+\begin{itemize}
+\item{How to install R and RStudio}
+\item{How to install packages in RStudio}
+\item{Create your first data analysis project in RStudio}
+\end{itemize}
+\end{secabstract}
+```
+
 This is a book created from markdown and executable code.
 
 See @knuth84 for additional discussion of literate programming.
