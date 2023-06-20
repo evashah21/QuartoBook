@@ -1,1 +1,12 @@
 # Appendix B
+
+\lipsum[3]
+
+Figure
+
+```{r}
+#| label: fig-ggplot
+#| fig-cap: "MPG vs Cyl"
+library(ggplot2)
+ggplot(mtcars) + aes(cyl,mpg) + geom_point()
+```

@@ -1,1 +1,11 @@
 # Appendix A
+
+\lipsum[3]
+
+Table
+
+```{r}
+#| label: tbl-mtcars
+#| tbl-cap: "Rows from mtcars dataset"
+knitr::kable(head(mtcars))
+```

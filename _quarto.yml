@@ -22,6 +22,10 @@ format:
     theme: cosmo
   pdf:
     documentclass: scrbook
+    toc: true
+    toc-title: "Contents"
+    lot: true
+    lof: true
     include-in-header: 
       - text: |
           \usepackage{lipsum}
