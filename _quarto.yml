@@ -24,6 +24,9 @@ format:
     documentclass: scrbook
     include-in-header: 
       - text: |
+          \usepackage{lipsum}
+          %\usepackage{appendix}
+          %\usepackage{appendixnumbering}
           \providecommand{\abstractname}{Learning Objectives} % not in scrbook class
           \newenvironment{secabstract}[1]{%
           \hrule
