@@ -9,6 +9,10 @@ book:
     - index.qmd
     - intro.qmd
     - summary.qmd
+    - part: Appendices.qmd
+      chapters: 
+        - Appendix_A.qmd
+        - Appendix_B.qmd
     - references.qmd
 
 bibliography: references.bib
@@ -30,8 +34,9 @@ format:
           \small\emph{#1} % or \small\textit{#1} 
           \itshape % use this if you want the text to be in italics
           }{%
+          \vspace{5pt}
           \hrule
-          \vspace{0.6cm}
+          \vspace{1cm}
           }
 
 editor: visual
