@@ -12,8 +12,6 @@ book:
     - references.qmd
 
 bibliography: references.bib
-env:
-  GITHUB_PAT: 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
 
 format:
   html:
